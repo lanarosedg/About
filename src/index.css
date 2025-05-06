@@ -7,7 +7,7 @@
 .App {
   display: grid;
   grid-template-columns: 1fr 263px 90px 495px 1fr;
-  grid-template-rows: 150px 90px 50px 40px 15px 50px 52px 41px 100px 65px 30px 330px 41px 212px 41px 365px 100px;
+  grid-template-rows: 150px 90px 50px 40px 15px 50px 52px 41px 100px 30px 222px 41px 212px 1px 365px 100px;
 }
 
 /*      */ 
@@ -88,8 +88,6 @@
   font-size: 14px;
   background-color: #E8EDFF;
   border-color: rgba(209, 219, 255, 0.2);
-  box-shadow:  10px 10px 30px #c5c9d9,
-             -10px -10px 60px #ffffff;
   border-radius: 20px; 
   cursor: pointer;
 }
@@ -152,7 +150,7 @@
   width: 481px;
   height: 280px;
   line-height: 20px;
-  gap: 10px;
+  gap: 1px;
 }
 
 .experienceTitle {
@@ -179,10 +177,9 @@
   padding-top: 15px;
   box-shadow:  20px 20px 20px #c5c9d9,
   -20px -20px 60px #ffffff;
-
   border-radius: 20px;
   width: 481px;
-  height: 530px;
+  height: 360px;
   line-height: 20px;
   gap: 10px;
 }
@@ -205,7 +202,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   font-size: 14px;
 }
 
@@ -221,6 +218,14 @@
   gap: 2px;
 }
 
+.techEndButton {
+  border-radius: 10px;
+  border-style: solid;
+  border-color:rgba(7, 15, 43, 0.2);
+  font-size: 12px;
+}
+
+
 /*               */ 
 /*               */ 
 /* LIFE OUTSIDE  */
@@ -230,7 +235,7 @@
 .lifeOutsideContainer {
   justify-content: center;
   align-items: left;
-  grid-area: 13 / 4 / 14 / 5;
+  grid-area: 12 / 4 / 14 / 5;
   padding-left: 50px;
   padding-top: 15px;
   box-shadow:  20px 20px 20px #c5c9d9,
@@ -288,6 +293,11 @@
   gap: 10px;
   font-size: 14px;
   font-weight: bold;
+}
+
+.logoLink {
+  height: 14px;
+  width: 14px;
 }
 
 /*           */ 
