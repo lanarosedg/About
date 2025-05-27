@@ -17,10 +17,10 @@ function App() {
         <Photo/>
         <Name/>
         <Email/>
-        {/* <Introduction/>
+        <Introduction/>
         <Contacts/>
         <Experience/>
-        <TechStack/>
+        {/* <TechStack/>
         <LifeOutside/>
         
         <Projects/>
