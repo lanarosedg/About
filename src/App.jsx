@@ -1,3 +1,4 @@
+import Photo from './Photo.jsx';
 import Name from './Name.jsx';
 import Introduction from './Introduction.jsx';
 import Email from './Email.jsx';
@@ -8,20 +9,22 @@ import LifeOutside from './LifeOutside.jsx';
 import Projects from './Projects.jsx';
 import Footer from './Footer.jsx';
 
+
 function App() {
   return(
     <>
       <div class="App">
+        <Photo/>
         <Name/>
         <Email/>
-        <Introduction/>
+        {/* <Introduction/>
         <Contacts/>
         <Experience/>
         <TechStack/>
         <LifeOutside/>
         
         <Projects/>
-        <Footer/>
+        <Footer/> */}
       </div>
     </>
   );
