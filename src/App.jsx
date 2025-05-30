@@ -17,13 +17,13 @@ function App() {
         <Photo/>
         <Name/>
         <Email/>
-        <Introduction/>
+        {/* <Introduction/>
         <Contacts/>
         <Experience/>
         <TechStack/>
         <LifeOutside/>
         <Projects/>
-        <Footer/>
+        <Footer/> */}
       </div>
     </>
   );
