@@ -161,7 +161,7 @@
   padding-left: 50px;
   box-shadow: 20px 20px 20px #c5c9d9,
     -20px -20px 60px #ffffff;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 460px;
   height: 280px;
   line-height: 20px;
@@ -192,7 +192,7 @@
   padding-top: 15px;
   box-shadow: 20px 20px 20px #c5c9d9,
     -20px -20px 60px #ffffff;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 460px;
   height: 360px;
   line-height: 20px;
@@ -255,7 +255,7 @@
   padding-top: 15px;
   box-shadow: 20px 20px 20px #c5c9d9,
     -20px -20px 60px #ffffff;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 460px;
   height: 220px;
   line-height: 20px;
@@ -280,7 +280,7 @@
   padding-top: 15px;
   box-shadow: 20px 20px 20px #c5c9d9,
     -20px -20px 60px #ffffff;
-  border-radius: 20px;
+  border-radius: 15px;
   width: 460px;
   height: 350px;
   line-height: 20px;
@@ -335,6 +335,99 @@
   border: none;
   border-top: 1px solid #ccc;
 }
+
+/*----------------------Iphone SE---------------------------*/
+/*----------------------Iphone SE---------------------------*/
+/*----------------------Iphone SE---------------------------*/
+
+@media only screen and (max-width: 1334px) {
+  .App {
+    display: grid;
+    grid-template-columns: auto 10px 100px 20px 150px auto;
+    grid-template-rows: 50px 70px 50px 50px 110px 40px 80px 330px 30px 375px 30px 230px 30px 450px 50px 40px;
+  }
+  
+  * {
+    letter-spacing: -0.5px;
+  }
+
+  /*       */
+  /*       */
+  /* EMAIL */
+  /*       */
+  /*       */
+
+    .emailButton {
+      width: 140px;
+    }
+
+    /*       */
+    /*       */
+    /* INTRO */
+    /*       */
+    /*       */
+
+    .introContainer {
+      grid-area: 4 / 3 / 7 / 6;
+    }
+
+    /*         */
+    /*         */
+    /* CONTACT */
+    /*         */
+    /*         */
+
+    .contactsContainer {
+      grid-area: 7 / 3 / 8 / 6;
+      gap: 50px;
+    }
+
+    /*            */
+    /*            */
+    /* EXPERIENCE */
+    /*            */
+    /*            */
+
+    .experienceContainer {
+      width: 220px;
+      height: 330px;
+    }
+
+    /*            */
+    /*            */
+    /* TECHSTACK  */
+    /*            */
+    /*            */
+
+    .techStackContainer {
+      width: 220px;
+      height: 360px;
+    }
+
+    /*               */
+    /*               */
+    /* LIFE OUTSIDE  */
+    /*               */
+    /*               */
+
+    .lifeOutsideContainer {
+      width: 220px;
+      height: 215px;
+    }
+
+    /*           */
+    /*           */
+    /* PROJECTS  */
+    /*           */
+    /*           */
+
+    .projectsContainer {
+      width: 220px;
+      height: 435px;
+    }
+}
+
+
 /*----------------------Iphone 14---------------------------*/
 /*----------------------Iphone 14---------------------------*/
 /*----------------------Iphone 14---------------------------*/
@@ -343,7 +436,7 @@
 
   .App {
     display: grid;
-    grid-template-columns: 30px 20px 100px 30px 200px 30px;
+    grid-template-columns: auto 20px 100px 30px 200px auto;
     grid-template-rows: 50px 70px 50px 50px 110px 40px 20px 290px 30px 350px 30px 215px 30px 375px 30px 80px;
   }
 
@@ -359,7 +452,7 @@
     .formalPhoto {
       width: 100px;
       height: 100px;
-      border-radius: 20px;
+      border-radius: 15px;
       padding: 0;
       margin: 0;
     } 
@@ -434,7 +527,7 @@
       color: #E8EDFF;
       background-color: rgba(0, 16, 74);
       border-style: none;
-      border-radius: 20px;
+      border-radius: 15px;
       cursor: pointer;
     }
 
@@ -482,7 +575,7 @@
       grid-area: 8 / 3 / 9 / 6;
       padding-left: 25px;
       padding-right: 25px;
-      border-radius: 30px;
+      border-radius: 15px;
       width: 280px;
       height: 290px;
       line-height: 18px;
@@ -507,13 +600,14 @@
       grid-area: 10 / 3 / 11 / 6;
       padding-left: 25px;
       padding-right: 25px;
-      border-radius: 30px;
+      border-radius: 15px;
       width: 280px;
       height: 335px;
       line-height: 18px;
     }
 
     .techEndContainer {
+      flex-wrap: wrap;
       gap: 2px;
       font-size: 12px;
     }
@@ -533,7 +627,7 @@
       grid-area: 12 / 3 / 13 / 6;
       padding-left: 25px;
       padding-right: 25px;
-      border-radius: 30px;
+      border-radius: 15px;
       width: 280px;
       height: 200px;
       line-height: 18px;
@@ -553,7 +647,7 @@
       grid-area: 14 / 3 / 15 / 6;
       padding-left: 25px;
       padding-right: 25px;
-      border-radius: 30px;
+      border-radius: 15px;
       width: 280px;
       height: 360px;
       line-height: 18px;
@@ -586,5 +680,4 @@
       border: none;
       border-top: 1px solid #ccc;
     }
-
 }

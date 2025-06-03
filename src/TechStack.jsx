@@ -7,7 +7,7 @@ function TechStack() {
 
             <div className="techStackHeader">
                 <img src={code} alt="code" id="code" class="techLogo"/>
-                <p className="techStackTitle">Tech Stack</p>
+                <p className="techStackTitle">Tech Stack & Tools</p>
             </div>
             
             <p className="techEndTitle">Frontend</p>
