@@ -20,8 +20,8 @@ function App() {
         <Introduction/>
         <Contacts/>
         <Experience/>
-        {/* <TechStack/>
-        <LifeOutside/>
+        <TechStack/>
+        {/* <LifeOutside/>
         <Projects/>
         <Footer/> */}
       </div>
