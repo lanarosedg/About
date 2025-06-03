@@ -343,8 +343,8 @@
 
   .App {
     display: grid;
-    grid-template-columns: 30px 20px 100px 225px 30px;
-    grid-template-rows: 50px 100px 50px 150px 20px 30px;
+    grid-template-columns: 30px 20px 100px 30px 200px 30px;
+    grid-template-rows: 50px 70px 50px 50px 110px 40px 20px 300px;
   }
 
   /*        */
@@ -352,7 +352,7 @@
   /*        */
   /*        */
     .photo {    
-      grid-area: 2 / 2 / 3 / 3;
+      grid-area: 2 / 3 / 4 / 4;
       position: static;
     }
 
@@ -375,7 +375,8 @@
       display: grid;
       flex-direction: column;
       align-items: left;
-      grid-area: 2 / 4 / 3 / 5;
+      justify-content: left;
+      grid-area: 2 / 5 / 3 / 6;
       position: static;
     }
 
@@ -390,10 +391,10 @@
 
     .location {
       font-size: 12px;
-      margin-top: -5%;
+      margin-top: -2%;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 4px;
     }
 
     .role {
@@ -420,7 +421,7 @@
     .emailContainer {
       display: flex;
       flex-direction: center;
-      grid-area: 3 / 4 / 4 / 5;
+      grid-area: 3 / 5 / 4 / 6;
       place-items: center;
       position: static;
 
@@ -428,8 +429,8 @@
 
     .emailButton {
       width: 150px;
-      height: 30px;
-      font-size: 14px;
+      height: 25px;
+      font-size: 12px;
       color: #E8EDFF;
       background-color: rgba(0, 16, 74);
       border-style: none;
@@ -439,6 +440,68 @@
 
     .emailButton:hover {
       opacity: 0.8;
+    }
+
+    /*       */
+    /*       */
+    /* INTRO */
+    /*       */
+    /*       */
+
+    .introContainer {
+      flex-direction: column;
+      align-items: left;
+      grid-area: 4 / 3 / 6 / 6;
+      position: static;
+      font-size: 12px;
+    }
+
+    /*         */
+    /*         */
+    /* CONTACT */
+    /*         */
+    /*         */
+
+    .contactsContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      grid-area: 6 / 3 / 7 / 6;
+      gap: 70px;
+      position: static;
+    }
+
+    /*            */
+    /*            */
+    /* EXPERIENCE */
+    /*            */
+    /*            */
+
+    .experienceContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
+      grid-area: 8 / 3 / 9 / 6;
+      padding-left: 50px;
+      box-shadow: 20px 20px 20px #c5c9d9,
+        -20px -20px 60px #ffffff;
+      border-radius: 20px;
+      width: 460px;
+      height: 280px;
+      line-height: 20px;
+      gap: 1px;
+    }
+
+    .experienceTitle {
+      font-size: 16px;
+      font-weight: bolder;
+    }
+
+    .jobTitle {
+      font-size: 14px;
+      padding-left: 30px;
     }
 
 }
