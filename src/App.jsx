@@ -21,9 +21,9 @@ function App() {
         <Contacts/>
         <Experience/>
         <TechStack/>
-        {/* <LifeOutside/>
+        <LifeOutside/>
         <Projects/>
-        <Footer/> */}
+        <Footer/>
       </div>
     </>
   );
