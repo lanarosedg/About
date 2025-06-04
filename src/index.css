@@ -340,7 +340,7 @@
 /*----------------------Iphone SE---------------------------*/
 /*----------------------Iphone SE---------------------------*/
 
-@media only screen and (max-width: 1334px) {
+@media only screen and (max-width: 320px) {
   .App {
     display: grid;
     grid-template-columns: auto 10px 100px 20px 150px auto;
@@ -432,12 +432,12 @@
 /*----------------------Iphone 14---------------------------*/
 /*----------------------Iphone 14---------------------------*/
 
-@media only screen and (max-width: 1836px) {
+@media only screen and (max-width: 768px) {
 
   .App {
     display: grid;
     grid-template-columns: auto 20px 100px 30px 200px auto;
-    grid-template-rows: 50px 70px 50px 50px 110px 40px 20px 290px 30px 350px 30px 215px 30px 375px 30px 80px;
+    grid-template-rows: 50px 70px 50px 50px 110px 40px 20px 290px 30px 380px 30px 215px 30px 375px 30px 80px;
   }
 
   /*        */
@@ -602,7 +602,7 @@
       padding-right: 25px;
       border-radius: 15px;
       width: 280px;
-      height: 335px;
+      height: 365px;
       line-height: 18px;
     }
 
