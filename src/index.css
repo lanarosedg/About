@@ -437,7 +437,7 @@
   .App {
     display: grid;
     grid-template-columns: auto 20px 100px 30px 200px auto;
-    grid-template-rows: 50px 70px 50px 50px 110px 70px 10px 290px 30px 380px 30px 215px 30px 375px 30px 80px;
+    grid-template-rows: 50px 70px 50px 50px 115px 70px 10px 290px 30px 380px 30px 215px 30px 375px 30px 80px;
   }
 
   /*        */
