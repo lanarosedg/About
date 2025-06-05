@@ -322,98 +322,6 @@
   border-top: 1px solid #ccc;
 }
 
-/*----------------------Iphone SE---------------------------*/
-/*----------------------Iphone SE---------------------------*/
-/*----------------------Iphone SE---------------------------*/
-
-@media only screen and (max-width: 320px) {
-  .App {
-    display: grid;
-    grid-template-columns: auto 10px 100px 20px 150px auto;
-    grid-template-rows: 50px 70px 50px 50px 110px 40px 80px 330px 30px 375px 30px 230px 30px 450px 50px 40px;
-  }
-  
-  * {
-    letter-spacing: -0.5px;
-  }
-
-  /*       */
-  /*       */
-  /* EMAIL */
-  /*       */
-  /*       */
-
-    .emailButton {
-      width: 140px;
-    }
-
-    /*       */
-    /*       */
-    /* INTRO */
-    /*       */
-    /*       */
-
-    .introContainer {
-      grid-area: 4 / 3 / 7 / 6;
-    }
-
-    /*         */
-    /*         */
-    /* CONTACT */
-    /*         */
-    /*         */
-
-    .contactsContainer {
-      grid-area: 7 / 3 / 8 / 6;
-      gap: 50px;
-    }
-
-    /*            */
-    /*            */
-    /* EXPERIENCE */
-    /*            */
-    /*            */
-
-    .experienceContainer {
-      width: 220px;
-      height: 330px;
-    }
-
-    /*            */
-    /*            */
-    /* TECHSTACK  */
-    /*            */
-    /*            */
-
-    .techStackContainer {
-      width: 220px;
-      height: 360px;
-    }
-
-    /*               */
-    /*               */
-    /* LIFE OUTSIDE  */
-    /*               */
-    /*               */
-
-    .lifeOutsideContainer {
-      width: 220px;
-      height: 215px;
-    }
-
-    /*           */
-    /*           */
-    /* PROJECTS  */
-    /*           */
-    /*           */
-
-    .projectsContainer {
-      width: 220px;
-      height: 435px;
-    }
-}
-
-
 /*----------------------Iphone 14---------------------------*/
 /*----------------------Iphone 14---------------------------*/
 /*----------------------Iphone 14---------------------------*/
@@ -439,7 +347,7 @@
       width: 100px;
       height: 100px;
       border-radius: 15px;
-      padding: 0;
+      padding: 0; 
       margin: 0;
     } 
 
@@ -665,5 +573,96 @@
       margin-bottom: 10px;
       border: none;
       border-top: 1px solid #ccc;
+    }
+}
+
+/*----------------------Iphone SE---------------------------*/
+/*----------------------Iphone SE---------------------------*/
+/*----------------------Iphone SE---------------------------*/
+
+@media only screen and (max-width: 320px) {
+  .App {
+    display: grid;
+    grid-template-columns: auto 10px 100px 20px 150px auto;
+    grid-template-rows: 50px 70px 50px 200px 80px 330px 30px 355px 30px 230px 30px 450px 50px 40px;
+  }
+  
+  * {
+    letter-spacing: -0.5px;
+  }
+
+  /*       */
+  /*       */
+  /* EMAIL */
+  /*       */
+  /*       */
+
+    .emailButton {
+      width: 140px;
+    }
+
+    /*       */
+    /*       */
+    /* INTRO */
+    /*       */
+    /*       */
+
+    .introContainer {
+      grid-area: 4 / 3 / 7 / 6;
+    }
+
+    /*         */
+    /*         */
+    /* CONTACT */
+    /*         */
+    /*         */
+
+    .contactsContainer {
+      grid-area: 5 / 3 / 6 / 6;
+      gap: 50px;
+    }
+
+    /*            */
+    /*            */
+    /* EXPERIENCE */
+    /*            */
+    /*            */
+
+    .experienceContainer {
+      width: 220px;
+      height: 330px;
+    }
+
+    /*            */
+    /*            */
+    /* TECHSTACK  */
+    /*            */
+    /*            */
+
+    .techStackContainer {
+      width: 220px;
+      height: 335px;
+    }
+
+    /*               */
+    /*               */
+    /* LIFE OUTSIDE  */
+    /*               */
+    /*               */
+
+    .lifeOutsideContainer {
+      width: 220px;
+      height: 215px;
+    }
+
+    /*           */
+    /*           */
+    /* PROJECTS  */
+    /*           */
+    /*           */
+
+    .projectsContainer {
+      width: 220px;
+      height: 435px;
     }
 }
