@@ -584,7 +584,7 @@
   .App {
     display: grid;
     grid-template-columns: auto 10px 100px 20px 150px auto;
-    grid-template-rows: 50px 70px 50px 200px 80px 330px 30px 355px 30px 230px 30px 450px 50px 40px;
+    grid-template-rows: 50px 70px 50px 200px 80px 330px 30px 355px 30px 230px 30px 415px 50px 40px;
   }
   
   * {
@@ -663,6 +663,6 @@
 
     .projectsContainer {
       width: 220px;
-      height: 435px;
+      height: 400px;
     }
 }
