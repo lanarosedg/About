@@ -9,14 +9,14 @@ function Name() {
     return(
         <div class="nameContainer">
             <p class="nameTitle">Lana Rose &nbsp;
-                {/* <a 
+                <a 
                     href="" 
                     className="moonLink"
                     onMouseEnter={() => setMoonIcon(moonBlack)}
                     onMouseLeave={() => setMoonIcon(moon)}
                     >
-                    <img src={moonIcon} alt="moon" class='moonIcon'/>
-                </a> */}
+                    <img src={moonIcon} alt="moon" className="moonIcon"/>
+                </a>
             </p>
             <p class="location">
                 <img src={location} alt="location" class="logo"/>  
