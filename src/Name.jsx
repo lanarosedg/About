@@ -8,7 +8,7 @@ function Name() {
 
     return(
         <div class="nameContainer">
-            <p class="nameTitle">Lana Rose &nbsp;
+            <p class="nameTitle">Lana Rose
                 <a 
                     href="" 
                     className="moonLink"
