@@ -55,6 +55,13 @@
   grid-area: 2 / 5 / 2 / 6;
 }
 
+.nameTitleContainer {
+  display: flex;
+  flex-direction: row;
+  place-items: center;
+  gap: 10px;
+}
+
 .nameTitle {
   font-size: 24px;
   font-weight: bolder;
@@ -78,8 +85,8 @@
 }
 
 .moonIcon {
-  height: 10px;
-  width: 10px;
+  height: 15px;
+  width: 15px;
 }
 /*       */
 /*       */

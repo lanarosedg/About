@@ -8,16 +8,17 @@ function Name() {
 
     return(
         <div class="nameContainer">
-            <p class="nameTitle">Lana Rose
+            <div className="nameTitleContainer">
+                <p class="nameTitle">Lana Rose</p>
                 <a 
-                    href="" 
-                    className="moonLink"
-                    onMouseEnter={() => setMoonIcon(moonBlack)}
-                    onMouseLeave={() => setMoonIcon(moon)}
-                    >
-                    <img src={moonIcon} alt="moon" className="moonIcon"/>
+                        href="" 
+                        className="moonLink"
+                        onMouseEnter={() => setMoonIcon(moonBlack)}
+                        onMouseLeave={() => setMoonIcon(moon)}
+                        >
+                        <img src={moonIcon} alt="moon" className="moonIcon"/>
                 </a>
-            </p>
+            </div>
             <p class="location">
                 <img src={location} alt="location" class="logo"/>  
             Manila, Philippines
