@@ -2,6 +2,7 @@ import { useState } from 'react';
 import moon from './assets/light-mode/moon.png'
 import moonBlack from './assets/light-mode/moonBlack.png'
 import location from './assets/light-mode/location.png'
+import useDarkMode from './useDarkMode';
 
 function Name() {
     const [moonIcon, setMoonIcon] = useState(moon);
@@ -16,7 +17,12 @@ function Name() {
                         onMouseEnter={() => setMoonIcon(moonBlack)}
                         onMouseLeave={() => setMoonIcon(moon)}
                         >
-                        <img src={moonIcon} alt="moon" className="moonIcon"/>
+                        <img 
+                            src={moonIcon} 
+                            alt="moon" 
+                            className="moonIcon"
+                            onClick={useDarkMode}
+                        />
                 </a>
             </div>
             <p class="location">
