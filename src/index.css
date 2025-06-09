@@ -424,7 +424,7 @@
     .emailButton {
       width: 150px;
       height: 25px;
-      font-size: 12px;
+      font-size: 10px;
       color: #E8EDFF;
       background-color: rgba(0, 16, 74);
       border-style: none;
@@ -483,7 +483,7 @@
     }
 
     .experienceTitle {
-      font-size: 16px;
+      font-size: 14px;
     }
 
     .jobTitle {
