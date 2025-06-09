@@ -157,8 +157,8 @@
   align-items: left;
   grid-area: 6 / 3 / 7 / 6;
   padding-left: 30px;
-  box-shadow: 20px 20px 20px #c5c9d9,
-    -20px -20px 60px #ffffff;
+  box-shadow: 10px 10px 20px #c5c9d9,
+    -10px -10px 20px #ffffff;
   border-radius: 15px;
   width: 400px;
   height: 260px;
@@ -188,7 +188,7 @@
   padding-left: 30px;
   padding-top: 15px;
   box-shadow: 20px 20px 20px #c5c9d9,
-    -20px -20px 60px #ffffff;
+    -20px -20px 20px #ffffff;
   border-radius: 15px;
   width: 400px;
   height: 325px;
@@ -252,8 +252,8 @@
   grid-area: 10 / 3 / 11 / 6;
   padding-left: 30px;
   padding-top: 15px;
-  box-shadow: 20px 20px 20px #c5c9d9,
-    -20px -20px 60px #ffffff;
+  box-shadow: 10px 10px 20px #c5c9d9,
+    -10px -10px 20px #ffffff;
   border-radius: 15px;
   width: 400px;
   height: 185px;
@@ -277,8 +277,8 @@
   grid-area: 12 / 3 / 13 / 6;
   padding-left: 30px;
   padding-top: 15px;
-  box-shadow: 20px 20px 20px #c5c9d9,
-    -20px -20px 60px #ffffff;
+  box-shadow: 10px 10px 20px #c5c9d9,
+    -10px -10px 20px #ffffff;
   border-radius: 15px;
   width: 400px;
   height: 340px;
