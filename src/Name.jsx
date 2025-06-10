@@ -2,6 +2,7 @@ import { useState } from 'react';
 import moon from './assets/light-mode/moon.png';
 import moonBlack from './assets/light-mode/moonBlack.png';
 import location from './assets/light-mode/location.png';
+import locationdark from './assets/dark-mode/location.png';
 import useDarkMode from './useDarkMode';
 
 function Name() {
@@ -29,7 +30,7 @@ function Name() {
                 </a>
             </div>
             <p className="location">
-                <img src={location} alt="location" className="logo"/>  
+                <img src={isDark ? locationdark : location} alt="location" className="logo"/>  
                 Manila, Philippines
             </p>
             <p className="role">Full Stack Web Developer</p>

@@ -4,6 +4,11 @@
   background-color: #E8EDFF;
 }
 
+.dark * {
+  color: #E8EDFF;
+  background-color: #070F2B;
+}
+
 .App {
     display: grid;
     grid-template-columns: auto 40px 150px 30px 250px auto;
@@ -36,7 +41,6 @@
   height: 16px;
   width: 16px;
 }
-
 
 
 /*      */
@@ -111,6 +115,11 @@
   cursor: pointer;
 }
 
+.dark .emailButton {
+  background-color: #E8EDFF;
+  color: rgba(0, 16, 74);
+}
+
 
 .emailButton:hover {
       opacity: 0.8;
@@ -167,6 +176,11 @@
   gap: 1px;
 }
 
+.dark .experienceContainer {
+  box-shadow:  20px 20px 60px #040816,
+             -20px -20px 60px #0b1741;
+}
+
 .experienceTitle {
   font-size: 14px;
   font-weight: bolder;
@@ -195,6 +209,11 @@
   height: 325px;
   line-height: 20px;
   gap: 2px;
+}
+
+.dark .techStackContainer {
+  box-shadow:  20px 20px 60px #040816,
+             -20px -20px 60px #0b1741;
 }
 
 .techStackHeader {
@@ -262,6 +281,11 @@
   gap: 10px;
 }
 
+.dark .lifeOutsideContainer {
+  box-shadow:  20px 20px 60px #040816,
+             -20px -20px 60px #0b1741;
+}
+
 .lifeOutsideText {
   font-size: 12px;
 }
@@ -285,6 +309,11 @@
   height: 340px;
   line-height: 20px;
   gap: 10px;
+}
+
+.dark .projectsContainer {
+  box-shadow:  20px 20px 60px #040816,
+             -20px -20px 60px #0b1741;
 }
 
 .linkText {
