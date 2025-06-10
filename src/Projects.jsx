@@ -1,11 +1,18 @@
 import link from './assets/light-mode/link.png'
 import links from './assets/light-mode/links.png'
 
+import linkDark from './assets/dark-mode/link.png'
+import linksDark from './assets/dark-mode/links.png'
+
+import useDarkMode from './useDarkMode'
+
 function Projects() {
+    const [isDark] = useDarkMode();
+
     return (
         <div className="projectsContainer">
             <div className="techStackHeader">
-                <img src={link} alt="link" class="logo"/>
+                <img src={isDark ? linkDark : link} alt="link" class="logo"/>
                 <p className="projectsTitle">Projects</p>
             </div>
 
@@ -13,7 +20,7 @@ function Projects() {
                     <a 
                         href="https://www.partslane.com.au/" 
                         className="subaruAU">
-                            <img src={links} alt="links" class="logoLink"/>
+                            <img src={isDark ? linksDark : links} alt="links" class="logoLink"/>
                         </a>
                     <p className="linkTitle">PartsLane Subaru AU</p>
                 </div>
@@ -23,7 +30,7 @@ function Projects() {
                     <a 
                         href="https://www.partslane.com.sg/" 
                         className="toyotaSG">
-                            <img src={links} alt="links" class="logoLink"/>
+                            <img src={isDark ? linksDark : links} alt="links" class="logoLink"/>
                         </a>
                     <p className="linkTitle">PartsLane Toyota SG</p>
                 </div>
@@ -33,7 +40,7 @@ function Projects() {
                     <a 
                         href="https://www.partslane.com.hk/" 
                         className="lexusHK">
-                            <img src={links} alt="links" class="logoLink"/>
+                            <img src={isDark ? linksDark : links} alt="links" class="logoLink"/>
                         </a>
                     <p className="linkTitle">PartsLane Toyota and Lexus HK</p>
                 </div>
@@ -43,7 +50,7 @@ function Projects() {
                     <a 
                         href="https://www.bcnmtpoint.com/" 
                         className="bcnLink">
-                            <img src={links} alt="links" class="logoLink"/>
+                            <img src={isDark ? linksDark : links} alt="links" class="logoLink"/>
                         </a>
                     <p className="linkTitle">BCN Montjuic Tourist Point</p>
                 </div>

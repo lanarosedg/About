@@ -259,6 +259,10 @@
   font-size: 12px;
 }
 
+.dark .techEndButton {
+  border-color: #E8EDFF;
+}
+
 
 /*               */
 /*               */

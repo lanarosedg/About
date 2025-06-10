@@ -1,10 +1,15 @@
 import view from './assets/light-mode/view.png'
+import viewdark from './assets/dark-mode/view.png'
+
+import useDarkMode from './useDarkMode'
 
 function LifeOutside() {
+    const [isDark] = useDarkMode();
+
     return (
         <div className="lifeOutsideContainer">
             <div className="techStackHeader">
-                <img class="logo" src={view} alt="view" />
+                <img class="logo" src={isDark ? viewdark : view} alt="view" />
                 <p className="lifeOutsideTitle">Life Outside Development</p>
             </div>
             <p className="lifeOutsideText">
