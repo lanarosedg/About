@@ -1,37 +1,40 @@
 import { useState } from 'react';
-import moon from './assets/light-mode/moon.png'
-import moonBlack from './assets/light-mode/moonBlack.png'
-import location from './assets/light-mode/location.png'
+import moon from './assets/light-mode/moon.png';
+import moonBlack from './assets/light-mode/moonBlack.png';
+import location from './assets/light-mode/location.png';
 import useDarkMode from './useDarkMode';
 
 function Name() {
     const [moonIcon, setMoonIcon] = useState(moon);
+    const [isDark, setIsDark] = useDarkMode(); 
 
-    return(
-        <div class="nameContainer">
+    const toggleDarkMode = () => setIsDark(!isDark);
+
+    return (
+        <div className="nameContainer">
             <div className="nameTitleContainer">
-                <p class="nameTitle">Lana Rose</p>
+                <p className="nameTitle">Lana Rose</p>
                 <a 
-                        href="" 
-                        className="moonLink"
-                        onMouseEnter={() => setMoonIcon(moonBlack)}
-                        onMouseLeave={() => setMoonIcon(moon)}
-                        >
-                        <img 
-                            src={moonIcon} 
-                            alt="moon" 
-                            className="moonIcon"
-                            onClick={useDarkMode}
-                        />
+                    href="#"
+                    className="moonLink"
+                    onMouseEnter={() => setMoonIcon(moonBlack)}
+                    onMouseLeave={() => setMoonIcon(moon)}
+                    onClick={toggleDarkMode}
+                >
+                    <img 
+                        src={moonIcon} 
+                        alt="moon" 
+                        className="moonIcon"
+                    />
                 </a>
             </div>
-            <p class="location">
-                <img src={location} alt="location" class="logo"/>  
-            Manila, Philippines
+            <p className="location">
+                <img src={location} alt="location" className="logo"/>  
+                Manila, Philippines
             </p>
-            <p class="role">Full Stack Web Developer</p>
+            <p className="role">Full Stack Web Developer</p>
         </div>
-    )
+    );
 }
 
-export default Name
+export default Name;

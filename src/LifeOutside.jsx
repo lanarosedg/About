@@ -5,7 +5,7 @@ function LifeOutside() {
         <div className="lifeOutsideContainer">
             <div className="techStackHeader">
                 <img class="logo" src={view} alt="view" />
-                <p className="lifeOutsideTitle">LIfe Outside Development</p>
+                <p className="lifeOutsideTitle">Life Outside Development</p>
             </div>
             <p className="lifeOutsideText">
                 When I’m not coding, I work with startups as a
