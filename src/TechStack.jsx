@@ -1,12 +1,16 @@
 import code from './assets/light-mode/code.png'
+import codeDark from './assets/dark-mode/code.png'
+
+import useDarkMode from './useDarkMode'
 
 
 function TechStack() {
+    const [isDark] = useDarkMode();
     return (
         <div className="techStackContainer">
 
             <div className="techStackHeader">
-                <img src={code} alt="code" id="code" class="techLogo"/>
+                <img src={isDark ? codeDark : code} alt="code" id="code" class="techLogo"/>
                 <p className="techStackTitle">Tech Stack & Tools</p>
             </div>
             

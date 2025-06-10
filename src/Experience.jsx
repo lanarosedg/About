@@ -1,10 +1,15 @@
 import experience from './assets/light-mode/experience.png'
+import experienceDark from './assets/dark-mode/experience.png'
+import useDarkMode from './useDarkMode'
+
 function Experience() {
+    const [isDark] = useDarkMode();
+
     return (
         <div className="experienceContainer">
             
             <div className="techStackHeader">
-                <img className="logo" src={experience} alt="experience" />
+                <img className="logo" src={isDark ? experienceDark : experience} alt="experience" />
                 <p className="experienceTitle">Experience</p>
             </div>
 

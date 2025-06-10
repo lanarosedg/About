@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import moon from './assets/light-mode/moon.png';
 import moonBlack from './assets/light-mode/moonBlack.png';
+import moonYellowFilled from './assets/dark-mode/moonFilled.png';
 import location from './assets/light-mode/location.png';
 import locationdark from './assets/dark-mode/location.png';
 import useDarkMode from './useDarkMode';
@@ -23,7 +24,7 @@ function Name() {
                     onClick={toggleDarkMode}
                 >
                     <img 
-                        src={moonIcon} 
+                        src={isDark ? moonYellowFilled : moonIcon} 
                         alt="moon" 
                         className="moonIcon"
                     />
