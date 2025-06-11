@@ -179,6 +179,13 @@
   gap: 1px;
 }
 
+.experienceContainer:hover {
+  box-shadow: 
+  inset 10px 10px 10px #c5c9d9,
+  inset -10px -10px 10px #ffffff;
+ cursor: pointer;
+}
+
 .dark .experienceContainer {
   box-shadow:  20px 20px 60px #040816,
              -20px -20px 60px #0b1741;
@@ -191,6 +198,7 @@
 
 .jobTitle {
   font-size: 10px;  
+  width: 300px;
 }
 
 /*            */
@@ -214,6 +222,13 @@
   gap: 2px;
 }
 
+.techStackContainer:hover {
+  box-shadow: 
+  inset 10px 10px 10px #c5c9d9,
+  inset -10px -10px 10px #ffffff;
+ cursor: pointer;
+}
+
 .dark .techStackContainer {
   box-shadow:  20px 20px 60px #040816,
              -20px -20px 60px #0b1741;
@@ -227,11 +242,13 @@
   font-size: 12px;
   font-weight: bold;
   line-height: 0;
+  width: 300px;
 }
 
 .techEndTitle {
   font-size: 10px;
   font-weight: bolder;
+  width: 300px;
 }
 
 .techEndContainer {
@@ -240,6 +257,7 @@
   align-items: center;
   gap: 3px;
   font-size: 10px;
+  width: 300px;
 }
 
 .techLogo {
@@ -289,6 +307,13 @@
   gap: 10px;
 }
 
+.lifeOutsideContainer:hover {
+  box-shadow: 
+  inset 10px 10px 10px #c5c9d9,
+  inset -10px -10px 10px #ffffff;
+ cursor: pointer;
+}
+
 .dark .lifeOutsideContainer {
   box-shadow:  20px 20px 60px #040816,
              -20px -20px 60px #0b1741;
@@ -319,6 +344,13 @@
   gap: 10px;
 }
 
+.projectsContainer:hover {
+  box-shadow: 
+  inset 10px 10px 10px #c5c9d9,
+  inset -10px -10px 10px #ffffff;
+ cursor: pointer;
+}
+
 .dark .projectsContainer {
   box-shadow:  20px 20px 60px #040816,
              -20px -20px 60px #0b1741;
@@ -328,6 +360,7 @@
   font-size: 10px;
   padding-left: 30px;
   margin-top: -2%;
+  width: 300px;
 }
 
 .techLinkContainer {
@@ -337,6 +370,7 @@
   gap: 10px;
   font-size: 10px;
   font-weight: bold;
+  width: 300px;
 }
 
 .logoLink {
