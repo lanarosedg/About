@@ -221,13 +221,13 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   line-height: 0;
 }
 
 .techEndTitle {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bolder;
 }
 
@@ -236,7 +236,7 @@
   flex-direction: row;
   align-items: center;
   gap: 3px;
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .techLogo {
@@ -256,7 +256,7 @@
   border-style: solid;
   border-width: 1px;
   border-color: rgba(7, 15, 43, 0.2);
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .dark .techEndButton {
@@ -291,7 +291,7 @@
 }
 
 .lifeOutsideText {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 /*           */
@@ -321,7 +321,7 @@
 }
 
 .linkText {
-  font-size: 12px;
+  font-size: 10px;
   padding-left: 30px;
   margin-top: -2%;
 }
@@ -331,13 +331,13 @@
   flex-direction: row;
   align-items: center;
   gap: 10px;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
 }
 
 .logoLink {
-  height: 14px;
-  width: 14px;
+  height: 12px;
+  width: 12px;
 }
 
 /*           */
@@ -517,11 +517,11 @@
     }
 
     .experienceTitle {
-      font-size: 14px;
+      font-size: 12px;
     }
 
     .jobTitle {
-      font-size: 12px;
+      font-size: 10px;
       padding-left: 5px;
     }
 
@@ -569,7 +569,7 @@
     }
 
     .lifeOutsideText {
-      font-size: 12px;
+      font-size: 10px;
     }
 
     /*           */
