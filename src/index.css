@@ -11,8 +11,8 @@
 
 .App {
     display: grid;
-    grid-template-columns: auto 40px 150px 30px 250px auto;
-    grid-template-rows: 50px 100px 50px 140px 70px 260px 30px 340px 30px 200px 30px 355px 100px 80px;
+    grid-template-columns: auto 40px 120px 30px 250px auto;
+    grid-template-rows: 50px 100px 50px 140px 70px 280px 30px 330px 30px 220px 30px 350px 100px 80px;
 }
 
 /*        */
@@ -38,8 +38,8 @@
 /*      */
 
 .logo {
-  height: 16px;
-  width: 16px;
+  height: 14px;
+  width: 14px;
 }
 
 
@@ -57,6 +57,7 @@
   justify-content: center;
   align-items: left;
   grid-area: 2 / 5 / 2 / 6;
+  padding-left: 20px;
 }
 
 .nameTitleContainer {
@@ -84,7 +85,7 @@
 }
 
 .role {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: -2%;
 }
 
@@ -102,6 +103,7 @@
   display: flex;
   grid-area: 3 / 5 / 4 / 6;
   place-items: center;
+  padding-left: 20px;
 }
 
 .emailButton {
@@ -166,12 +168,13 @@
   justify-content: center;
   align-items: left;
   grid-area: 6 / 3 / 7 / 6;
-  padding-left: 30px;
+  padding-left: 50px;
+  padding-top: 10px;
   box-shadow: 10px 10px 20px #c5c9d9,
     -10px -10px 20px #ffffff;
-  border-radius: 15px;
-  width: 400px;
-  height: 260px;
+  border-radius: 30px;
+  width: 350px;
+  height: 270px;
   line-height: 20px;
   gap: 1px;
 }
@@ -182,12 +185,12 @@
 }
 
 .experienceTitle {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bolder;
 }
 
 .jobTitle {
-  font-size: 12px;  
+  font-size: 10px;  
 }
 
 /*            */
@@ -200,13 +203,13 @@
   justify-content: center;
   align-items: left;
   grid-area: 8 / 3 / 9 / 6;
-  padding-left: 30px;
-  padding-top: 15px;
+  padding-left: 50px;
+  padding-top: 30px;
   box-shadow: 20px 20px 20px #c5c9d9,
     -20px -20px 20px #ffffff;
-  border-radius: 15px;
-  width: 400px;
-  height: 325px;
+  border-radius: 30px;
+  width: 350px;
+  height: 300px;
   line-height: 20px;
   gap: 2px;
 }
@@ -240,8 +243,8 @@
 }
 
 .techLogo {
-  height: 22px;
-  width: 22px;
+  height: 14px;
+  width: 14px;
 }
 
 .techLogoContainer {
@@ -274,13 +277,14 @@
   justify-content: center;
   align-items: left;
   grid-area: 10 / 3 / 11 / 6;
-  padding-left: 30px;
-  padding-top: 15px;
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 50px;
   box-shadow: 10px 10px 20px #c5c9d9,
     -10px -10px 20px #ffffff;
-  border-radius: 15px;
-  width: 400px;
-  height: 185px;
+  border-radius: 30px;
+  width: 300px;
+  height: 190px;
   line-height: 20px;
   gap: 10px;
 }
@@ -304,13 +308,13 @@
   justify-content: center;
   align-items: left;
   grid-area: 12 / 3 / 13 / 6;
-  padding-left: 30px;
-  padding-top: 15px;
+  padding-left: 50px;
+  padding-top: 30px;
   box-shadow: 10px 10px 20px #c5c9d9,
     -10px -10px 20px #ffffff;
-  border-radius: 15px;
-  width: 400px;
-  height: 340px;
+  border-radius: 30px;
+  width: 350px;
+  height: 320px;
   line-height: 20px;
   gap: 10px;
 }
@@ -372,7 +376,7 @@
   .App {
     display: grid;
     grid-template-columns: auto 20px 100px 30px 200px auto;
-    grid-template-rows: 50px 70px 50px 165px 70px 290px 30px 330px 30px 215px 30px 375px 60px 80px;
+    grid-template-rows: 50px 70px 50px 165px 70px 270px 30px 295px 30px 190px 30px 375px 60px 80px;
   }
 
   /*        */
@@ -510,9 +514,8 @@
       grid-area: 6 / 3 / 7 / 6;
       padding-left: 25px;
       padding-right: 25px;
-      border-radius: 15px;
       width: 280px;
-      height: 290px;
+      height: 270px;
       line-height: 18px;
     }
 
@@ -535,9 +538,8 @@
       grid-area: 8 / 3 / 9 / 6;
       padding-left: 25px;
       padding-right: 25px;
-      border-radius: 15px;
       width: 280px;
-      height: 315px;
+      height: 280px;
       line-height: 18px;
     }
 
@@ -562,9 +564,8 @@
       grid-area: 10 / 3 / 11 / 6;
       padding-left: 25px;
       padding-right: 25px;
-      border-radius: 15px;
       width: 280px;
-      height: 200px;
+      height: 175px;
       line-height: 18px;
     }
 
@@ -582,9 +583,8 @@
       grid-area: 12 / 3 / 13 / 6;
       padding-left: 25px;
       padding-right: 25px;
-      border-radius: 15px;
       width: 280px;
-      height: 360px;
+      height: 330px;
       line-height: 18px;
     }
 
