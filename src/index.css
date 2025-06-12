@@ -661,7 +661,7 @@
   .App {
     display: grid;
     grid-template-columns: auto 10px 100px 20px 150px auto;
-    grid-template-rows: 50px 70px 50px 200px 80px 330px 30px 355px 30px 230px 30px 415px 50px 40px;
+    grid-template-rows: 50px 70px 50px 200px 80px 300px 30px 355px 30px 230px 30px 415px 50px 40px;
   }
   
   * {
@@ -707,7 +707,11 @@
 
     .experienceContainer {
       width: 220px;
-      height: 330px;
+      height: 285px;
+    }
+
+    .jobTitle {
+      width: 200px;
     }
 
     /*            */
@@ -716,9 +720,21 @@
     /*            */
     /*            */
 
+    .techStackHeader {
+      width: 200px;
+    }
+
     .techStackContainer {
       width: 220px;
-      height: 335px;
+      height: 310px;
+    }
+
+    .techEndContainer {
+      width: 200px;
+    }
+
+    .techEndTitle {
+      width: 200px;
     }
 
     /*               */
@@ -729,7 +745,7 @@
 
     .lifeOutsideContainer {
       width: 220px;
-      height: 215px;
+      height: 200px;
     }
 
     /*           */
@@ -741,5 +757,13 @@
     .projectsContainer {
       width: 220px;
       height: 400px;
+    }
+
+    .techLinkContainer {
+      width: 200px;
+    }
+
+    .linkText {
+      width: 180px;
     }
 }
