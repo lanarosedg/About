@@ -198,7 +198,7 @@
 
 .jobTitle {
   font-size: 10px;  
-  width: 300px;
+  width: 250px;
 }
 
 /*            */
@@ -242,13 +242,13 @@
   font-size: 12px;
   font-weight: bold;
   line-height: 0;
-  width: 300px;
+  width: 250px;
 }
 
 .techEndTitle {
   font-size: 10px;
   font-weight: bolder;
-  width: 300px;
+  width: 250px;
 }
 
 .techEndContainer {
@@ -257,7 +257,7 @@
   align-items: center;
   gap: 3px;
   font-size: 10px;
-  width: 300px;
+  width: 250px;
 }
 
 .techLogo {
@@ -410,7 +410,7 @@
   .App {
     display: grid;
     grid-template-columns: auto 20px 100px 30px 200px auto;
-    grid-template-rows: 50px 70px 50px 165px 70px 270px 30px 295px 30px 190px 30px 375px 60px 80px;
+    grid-template-rows: 50px 70px 50px 165px 70px 280px 30px 310px 30px 205px 30px 375px 60px 80px;
   }
 
   /*        */
@@ -625,10 +625,12 @@
     .linkText {
       font-size: 12px;
       padding-left: 25px;
+      width: 250px;
     }
 
     .techLinkContainer {
       padding-left: 5px;
+      width: 250px;
     }
 
     /*           */
