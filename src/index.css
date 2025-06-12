@@ -444,6 +444,7 @@
       justify-content: left;
       grid-area: 2 / 5 / 3 / 6;
       position: static;
+      padding-left: 0;
     }
 
     .nameTitle {
@@ -490,7 +491,7 @@
       grid-area: 3 / 5 / 4 / 6;
       place-items: center;
       position: static;
-
+      padding-left: 0;
     }
 
     .emailButton {
@@ -661,11 +662,25 @@
   .App {
     display: grid;
     grid-template-columns: auto 10px 100px 20px 150px auto;
-    grid-template-rows: 50px 70px 50px 200px 80px 300px 30px 355px 30px 230px 30px 415px 50px 40px;
+    grid-template-rows: 50px 70px 50px 200px 80px 295px 30px 340px 30px 230px 30px 430px 50px 40px;
   }
   
   * {
     letter-spacing: -0.5px;
+  }
+
+  /*       */
+  /*       */
+  /* NAME  */
+  /*       */
+  /*       */
+
+  .nameTitle {
+    font-size: 20px;
+  }
+
+  .nameContainer {
+    padding-left: 0;
   }
 
   /*       */
@@ -676,6 +691,10 @@
 
     .emailButton {
       width: 140px;
+    }
+
+    .emailContainer {
+      padding-left: 0;
     }
 
     /*       */
