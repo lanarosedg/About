@@ -187,8 +187,15 @@
 }
 
 .dark .experienceContainer {
-  box-shadow:  20px 20px 60px #040816,
-             -20px -20px 60px #0b1741;
+  box-shadow:  
+   inset 10px 10px 10px #070d24,
+   inset -10px -10px 10px #0b1438;
+}
+
+.dark .experienceContainer:hover {
+  box-shadow:  20px 20px 60px #000000,
+             -20px -20px 60px #0d1a48;
+   cursor: pointer;
 }
 
 .experienceTitle {
@@ -230,8 +237,19 @@
 }
 
 .dark .techStackContainer {
-  box-shadow:  20px 20px 60px #040816,
-             -20px -20px 60px #0b1741;
+  box-shadow:  
+   inset 10px 10px 10px #070d24,
+   inset -10px -10px 10px #0b1438;
+}
+
+.dark .techStackContainer:hover{
+  box-shadow:  20px 20px 60px #000000,
+             -20px -20px 60px #0d1a48;
+   cursor: pointer;
+
+   .techEndButton {
+      border-color: #6EC207;
+    }
 }
 
 .techStackHeader {
@@ -315,8 +333,15 @@
 }
 
 .dark .lifeOutsideContainer {
-  box-shadow:  20px 20px 60px #040816,
-             -20px -20px 60px #0b1741;
+  box-shadow:  
+   inset 10px 10px 10px #070d24,
+   inset -10px -10px 10px #0b1438;
+}
+
+.dark .lifeOutsideContainer:hover {
+  box-shadow:  20px 20px 60px #000000,
+             -20px -20px 60px #0d1a48;
+   cursor: pointer;
 }
 
 .lifeOutsideText {
@@ -352,8 +377,15 @@
 }
 
 .dark .projectsContainer {
-  box-shadow:  20px 20px 60px #040816,
-             -20px -20px 60px #0b1741;
+  box-shadow:  
+   inset 10px 10px 10px #070d24,
+   inset -10px -10px 10px #0b1438;
+}
+
+.dark .projectsContainer:hover {
+  box-shadow:  20px 20px 60px #000000,
+             -20px -20px 60px #0d1a48;
+   cursor: pointer;
 }
 
 .linkText {
