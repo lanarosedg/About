@@ -4,6 +4,12 @@
   background-color: #E8EDFF;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
 .dark * {
   color: #E8EDFF;
   background-color: #070F2B;
