@@ -16,7 +16,7 @@ function LifeOutside() {
                 When I’m not coding, I work with startups as a
                 recruiter, helping hire skilled developers for various
                 projects. <br/> <br/>
-                I also teach C# at a college on Saturdays—not just
+                I also teach programming—not just
                 to share my knowledge, but also to learn from my
                 students and grow as a developer.
             </p>
