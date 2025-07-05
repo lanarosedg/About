@@ -34,7 +34,7 @@ function Name() {
                 <img src={isDark ? locationdark : location} alt="location" className="logo"/>  
                 Manila, Philippines
             </p>
-            <p className="role">Full Stack Web Developer</p>
+            <p className="role">Web Developer | Designer</p>
         </div>
     );
 }
